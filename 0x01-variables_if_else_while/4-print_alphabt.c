@@ -4,6 +4,7 @@
  *
  * Return: Always 0 (Success/correct)
  */
+ 
 int main(void)
 
 {
@@ -18,7 +19,10 @@ else if (alphabet == 'e')
 continue;
 
 putchar(alphabet);
+}
+
+putchar('\n');
 
 return (0);
 
-} 
+}
