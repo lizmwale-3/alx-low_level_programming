@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * print_numbers - entry point 
+ * print_numbers - entry point
+ *
  * Return: Always 0.
  */
 void print_numbers(void)
 {
-int numbers; 
+int numbers;
 
 numbers = 0;
 while (numbers < 10)
