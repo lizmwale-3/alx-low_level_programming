@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rv_string - prints a reverse string
+ * rev_string - prints a reverse string
  *@s: A pointer to an int that will be changed
  *
  *Return: void
@@ -22,9 +22,14 @@ count = length;
 start_c = s;
 end_c = s;
 
+for (i = 0; i < count - 1; i++)
+{
+end_c++;
+}
+
 for (i = 0; i < count / 2; i++)
 {
-
+ 
 c = *end_c;
 *end_c = *start_c;
 *start_c = c;
