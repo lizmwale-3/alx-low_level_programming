@@ -2,18 +2,17 @@
 /**
  * print_numbers - entry point
  *
- * Return: Always 0.
+ * Description: Prints the numbers with _putchar
+ *
+ * Return: void
  */
 void print_numbers(void)
 {
-int numbers;
+int number;
 
-numbers = 0;
-while (numbers < 10)
+for (number = '0'; number <= '9'; number++)
 {
-_putchar (numbers + '0');
-numbers++;
+_putchar (number);
 }
-
 _putchar ('\n')
 }
